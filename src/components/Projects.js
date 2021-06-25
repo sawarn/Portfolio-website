@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Skills = () => {
+const Projects = () => {
     return (
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -31,4 +31,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Projects
