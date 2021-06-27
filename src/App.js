@@ -5,6 +5,7 @@ import Particles from 'react-particles-js';
 import Projects from './components/Projects';
 import Header from './components/Header'
 import Footer from './components/Footer';
+import About from './components/Aboutme';
 function App() {
   return (
     <>
@@ -24,7 +25,7 @@ function App() {
     />
     <Navbar/>
     <Header/>
-    
+    <About/>
     <Projects/>
     <Footer/>
     </>

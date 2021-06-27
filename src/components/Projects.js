@@ -6,9 +6,10 @@ import image3 from "./assets/3.jpg"
 const Projects = () => {
     return (
       
-      <div className="cont">
+      <div className="contin">
         <h1><b>Projects</b></h1><br>
         </br><br></br>
+        <div className="cont">
       <Carousel fade controls={false}>
   <Carousel.Item interval={2000}>
     <img
@@ -45,8 +46,23 @@ const Projects = () => {
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
+  <Carousel.Item interval={2000} > 
+    <img
+      className="d-block w-100"
+      src={image3}
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Fourth slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  
+  
 </Carousel>
     </div> 
+    </div>
      )
 }
 
