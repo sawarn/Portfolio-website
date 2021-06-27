@@ -1,0 +1,3 @@
+export const Sliderdata = {
+    image:
+}

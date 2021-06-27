@@ -4,7 +4,7 @@ import "/home/ga1ileo/Desktop/Portfolio/node_modules/bootstrap/dist/css/bootstra
 import Particles from 'react-particles-js';
 import Projects from './components/Projects';
 import Header from './components/Header'
-import { Circle } from 'tsparticles/dist/Utils';
+import Footer from './components/Footer';
 function App() {
   return (
     <>
@@ -26,7 +26,7 @@ function App() {
     <Header/>
     
     <Projects/>
-    
+    <Footer/>
     </>
   );
 }
