@@ -2,16 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Caveat&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Amatic+SC&family=Caveat&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Amatic+SC&family=Caveat&family=Cinzel&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bad+Script&family=Caveat&family=Righteous&display=swap');
 
-body{
-  background-color: rgb(0, 0, 0);
-}
+
 
 
 /*################################################# NAVBAR #############################################################*/
 
 nav{
       z-index: 2;
+}
+
+.nav-col{
+  background-color: rgba(100, 100, 100, 0.5);
 }
 
 nav a.nav-link{
@@ -109,10 +114,11 @@ nav ul li{
 .fa fa-github-square{
   color: black;
 }
+
 /*###################################################### PROJECTS ##################################*/
 .cont{
   padding: 50px 200px 200px 200px;
-  background: #2F2F2F;
+  background: #000000;
   border:none;
   height: 40%;
   width:100%;
@@ -124,7 +130,7 @@ nav ul li{
   float: left;
 }
 .contin{
-  background-color: #2F2F2F;
+  background-color: #000000;
   color: white;
   padding-top: 30px;
   padding-left: 30px;
@@ -136,5 +142,28 @@ nav ul li{
 
 .about{
  padding-left: 30px;
+ padding-top: 20px;
  font-family: 'Cinzel', serif;
+ color: rgb(0, 0, 0);
+ background-color: rgb(255, 255, 255);
+ height: 920px;
 }
+
+
+
+.abt-cont{
+  margin-right: 200px;
+  border: 10px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 10px 10px rgb(58, 55, 55);
+  color: rgb(255, 255, 255);
+  background-color: black;
+  margin-bottom: 50px;
+  font-family: 'Righteous', cursive;
+  font-size: large;
+  width: 30%;
+  float:right;
+  font-family: 'Bad Script', cursive;
+  font-size: x-large;
+  
+}
+
